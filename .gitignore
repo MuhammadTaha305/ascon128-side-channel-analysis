@@ -15,8 +15,9 @@ __pycache__/
 venv/
 ascon_env/
 
-# Generated plots
-*_training.png
-*_Sample_Power_Traces.png
+# Generated plots from running scripts (training curves land in repo root, not assets/)
+/fixed_key_training.png
+/variable_key_training.png
+/*_Sample_Power_Traces.png
 
 .DS_Store
