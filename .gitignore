@@ -1,0 +1,22 @@
+# Generated trace datasets (large, reproducible via generate_traces.py)
+*.h5
+!models/*.h5
+fixed_key_traces.h5
+variable_key_traces.h5
+
+# Build artifacts
+*.elf
+*.o
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ascon_env/
+
+# Generated plots
+*_training.png
+*_Sample_Power_Traces.png
+
+.DS_Store
