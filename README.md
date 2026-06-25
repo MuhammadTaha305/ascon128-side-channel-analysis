@@ -1,5 +1,7 @@
 # Side-Channel Analysis of ASCON-128
 
+> 📚 **Course:** Cyber Security — Spring 2026, NUST SEECS
+
 A complete **profiled deep-learning side-channel attack** against a from-scratch C implementation of **ASCON-128** — the NIST Lightweight Cryptography standard. The pipeline compiles the cipher for ARM Cortex-M3, generates synthetic power traces in an emulator, and trains neural networks to recover secret key information from the leakage.
 
 > CS-360 Cyber Security open-ended lab, NUST SEECS. The attack runs entirely on **emulated** execution and **synthetic** (Hamming-weight + noise) traces — no physical hardware or real measurements — and concludes with the countermeasures needed to defend against it.
